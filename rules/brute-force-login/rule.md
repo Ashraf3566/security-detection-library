@@ -19,7 +19,7 @@
 SecurityEvent
 | where TimeGenerated > ago (5m)
 | where EventID == 4625
-| summarise FailedAttempts = count () by TargetAccount
+| summarise FailedAttempts = count () by TargetAccount, IpAddress
 | where FailedAttempts >5
 ```
 
