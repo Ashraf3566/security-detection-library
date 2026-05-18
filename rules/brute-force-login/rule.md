@@ -15,13 +15,13 @@
 
 ### KQL (Microsoft Sentinel)
 
-''' kql
+```kql
 SecurityEvent
 | where TimeGenerated > ago (5m)
 | where EventID == 4625
 | summarise FailedAttempts = count () by TargetAccount
 | where FailedAttempts >5
-'''
+```
 
 ## Sample log
 
