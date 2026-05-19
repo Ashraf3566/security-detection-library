@@ -20,8 +20,8 @@ Each rule includes:
 | Rule | Technique | Severity | Status |
 |------|-----------|----------|--------|
 | Brute Force Login | T1110.001 | Medium | Complete |
-| Suspicious PowerShell | T1059.001 | High | In progress |
-| MFA Abuse | T1621 | Medium | In progress |
+| Suspicious PowerShell | T1059.001 | High | Complete |
+| MFA Abuse | T1621 | High | Complete |
 
 ## Structure
 
